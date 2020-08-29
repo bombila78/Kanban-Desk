@@ -1,0 +1,44 @@
+.brand-logo {
+    padding: 1rem;
+    margin-left: 1rem;
+}
+
+.desk-title {
+    text-align: center;
+}
+
+.desk-column-wrapper {
+    flex: 1 1 auto;
+}
+
+.desk-column {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    padding: 1rem;
+    margin: 0.5rem;
+    min-height: 650px;
+    h4 {
+        text-align: center;
+    }
+}
+
+.button-container {
+    margin: 10px;
+}
+
+.center {
+    text-align: center;
+}
+
+.not-started {
+    color: white;
+    font-weight: bold;
+}
+
+.timer, .price {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
